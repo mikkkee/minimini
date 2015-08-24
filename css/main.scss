@@ -1,0 +1,116 @@
+---
+---
+
+$width: 800px;
+$fontsize: 14px;
+$minisize: 10px;
+$mainsize: 16px;
+
+body {
+    background: #f9f9f9;
+    font: {
+        family: 'Open Sans', sans-serif;
+        size: $fontsize;
+    }
+}
+
+header {
+    margin-left: auto;
+    margin-right: auto;
+    width: $width;
+    text-align: center;
+
+    h1 {
+        font: {
+            weight: 600;
+            family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        }
+    }
+}
+
+a, a:visited {
+    color: inherit;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+#go-back-home:hover {
+    text-decoration: none;
+}
+
+#container {
+    margin-left: auto;
+    margin-right:auto;
+    width: $width;
+}
+
+#container:before, #container:after {
+    content: " ";
+    display: table;
+}
+
+#container:after {
+    clear: both;
+}
+
+#container .block {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#container .block a.main {
+     display: inline-block;
+     vertical-align: baseline;
+     zoom: 1;
+     *display: inline;
+     *vertical-align: auto;
+     padding: 2px 2px;
+     margin-right: 12px;
+     margin-bottom: 6px;
+     &:last-of-type {margin-right: 0; }
+   }
+
+.content {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    border-width: 0;
+    border-style: solid;
+    padding: 30px 60px;
+    margin: auto;
+}
+
+.content.post {
+    font-size: $mainsize;
+}
+
+ul.posts, ul.posts li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.posts .datetime {
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
+  width: 130px;
+  text-transform: uppercase;
+  float: right;
+  color: #999;
+  font-size: $minisize;
+  text-align: right; }
+
+section.post h1 {
+    text-align: center;
+}
+section.post h1 .date {
+    font-size: $minisize;
+    color: #d0d0d0;
+}
