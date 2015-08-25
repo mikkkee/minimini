@@ -82,6 +82,10 @@ blockquote {
      &:last-of-type {margin-right: 0; }
    }
 
+ .muted, a.muted, a.muted:visited {
+     color: #999;
+ }
+
 .content {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -129,4 +133,8 @@ section.post {
     a, a:visited {
         color: #269;
 }
+}
+
+footer {
+    text-align: center;
 }
