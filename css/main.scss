@@ -36,6 +36,16 @@ a, a:visited {
     }
 }
 
+blockquote {
+  margin: 15px 0;
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
 #go-back-home:hover {
     text-decoration: none;
 }
@@ -113,4 +123,10 @@ section.post h1 {
 section.post h1 .date {
     font-size: $minisize;
     color: #d0d0d0;
+}
+
+section.post {
+    a, a:visited {
+        color: #269;
+}
 }
