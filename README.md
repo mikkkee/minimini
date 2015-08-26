@@ -2,6 +2,8 @@
 
 A simple plain white theme of Jekyll.
 
+Inspired by [Scribble](https://github.com/muan/scribble).
+
 ![screenshot](images/screenshot.png)
 
 # Get started
