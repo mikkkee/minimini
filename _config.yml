@@ -12,7 +12,7 @@ google_analytics: # Set Tracking ID of Google Analytics Account.
 
 links:
     - name: About
-      url: /about
+      url: /minimini/about
     - name: GitHub
       url: https://github.com/mikkkee
       external: true
