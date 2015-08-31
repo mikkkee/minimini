@@ -1,4 +1,4 @@
-# Minimini
+# Minimini GitHub Pages
 
 A simple plain white theme of Jekyll.
 
