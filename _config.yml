@@ -11,7 +11,7 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 links:
     - name: About
-      url: /about
+      url: /minimini/about
     - name: GitHub
       url: https://github.com/mikkkee
       external: true
