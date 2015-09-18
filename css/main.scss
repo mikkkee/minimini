@@ -28,6 +28,12 @@ header {
     }
 }
 
+p > code {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
 a, a:visited {
     color: inherit;
     text-decoration: none;
