@@ -46,6 +46,23 @@ a, a:visited {
     }
 }
 
+img {
+  border: none; }
+
+img {
+  max-width: 100%; }
+
+img.half {
+    width: 50%; }
+
+section.post iframe, section.post img {
+        padding: 0;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+}
+
 blockquote {
   margin: 15px 0;
   border-left: 4px solid #dddddd;
