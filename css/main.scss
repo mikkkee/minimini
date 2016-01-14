@@ -28,12 +28,39 @@ header {
     }
 }
 
+p > code, li > code, ul > code, span > code {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    border-radius: 3px;
+}
+
 a, a:visited {
     color: inherit;
     text-decoration: none;
     &:hover {
         text-decoration: underline;
     }
+}
+
+img {
+  border: none; }
+
+img {
+  max-width: 100%; }
+
+img.half {
+    width: 50%; }
+
+section.post iframe, section.post img {
+        padding: 0;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
 }
 
 blockquote {
