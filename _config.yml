@@ -23,4 +23,4 @@ links:
 highlighter: pygments
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
