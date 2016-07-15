@@ -125,7 +125,7 @@ blockquote {
     margin: auto;
 }
 
-.content.post {
+.content > .post {
     font-size: $mainsize;
 }
 

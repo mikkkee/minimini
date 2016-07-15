@@ -20,7 +20,7 @@ links:
       url: https://sg.linkedin.com/in/wangjianfeng
       external: true
 
-highlighter: pygments
+highlighter: rouge
 
 # Build settings
 markdown: kramdown
